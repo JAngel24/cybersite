@@ -1,2 +1,2 @@
 # cyberstuff
-https://jangel24.github.io/cyberstuff/
+https://jangel24.github.io/cybersite/
