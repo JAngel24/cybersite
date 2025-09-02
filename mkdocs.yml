@@ -1,9 +1,11 @@
 site_name: JASC Space
 site_url: https://jangel24.github.io/
 nav:
-  - Home: index.md # A more conventional way to set your homepage
+  - Home: 'index.md'
   - Blog:
-    - blog/index.md
+    - 'blog/index.md'
+    - 'blog/posts/hello.md'
+    
 theme:
   
   name: material
