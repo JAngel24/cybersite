@@ -3,8 +3,8 @@ theme:
   name: material
 plugins:
   - blog:
-      #blog_dir: .  
-      #authors: true
+      blog_dir: .  
+      authors: true
   - rss:
       date_from_meta:
         as_creation: date
