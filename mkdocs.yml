@@ -1,7 +1,7 @@
 site_name: https://jangel24.github.io/cybersite/
 nav:
   - Section:
-    - section/index.md 
+    - docs/index.md 
     - Page 1: posts/hello.md
 theme:
   site_url: https://jangel24.github.io/cybersite/
