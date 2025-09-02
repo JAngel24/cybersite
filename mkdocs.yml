@@ -16,10 +16,12 @@ theme:
     - navigation.expand
     - navigation.path
     - navigation.indexes
+    - toc.integrate
 plugins:
   - blog:
-      blog_dir: blog/ # Indica que los archivos del blog están en esta carpeta
-      blog_post_dir: blog/posts/ # Indica que las publicaciones están en esta subcarpeta
+      #blog_dir: blog/ # Indica que los archivos del blog están en esta carpeta
+      #blog_post_dir: blog/posts/ # Indica que las publicaciones están en esta subcarpeta
+      blog_dir: .
       authors: true
   - rss:
       date_from_meta:
