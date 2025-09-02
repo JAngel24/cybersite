@@ -7,6 +7,7 @@ nav:
       - 'blog/posts/hello.md'
     
 theme:
+  
   name: material
   features:
     - navigation.instant
@@ -20,8 +21,9 @@ theme:
     - toc.integrate
 plugins:
   - blog:
-      blog_dir: blog/ # This tells the plugin where your blog root is
-      blog_post_dir: blog/posts/ # This tells the plugin where your posts are
+      #blog_dir: blog/ # Indica que los archivos del blog están en esta carpeta
+      #blog_post_dir: blog/posts/ # Indica que las publicaciones están en esta subcarpeta
+      blog_dir: .
       authors: true
   - rss:
       date_from_meta:
@@ -32,7 +34,8 @@ plugins:
       enabled: !ENV [CI, false]
       date_from_meta:
         as_creation: date
-      match_path: blog/posts/.* date_from_meta:
+      match_path: blog/posts/.* 
+      date_from_meta:
         as_creation: date
       categories:
         - categories
