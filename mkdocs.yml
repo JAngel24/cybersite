@@ -1,6 +1,16 @@
-site_name: My Docs
+site_name: https://jangel24.github.io/cybersite/
 theme:
+  site_url: https://jangel24.github.io/cybersite/
   name: material
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
 plugins:
   - blog:
       blog_dir: .  
