@@ -16,9 +16,3 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
 
-nav:
-  - Section:
-    - section/index.md 
-    - Page 1: section/page-1.md
-    ...
-    - Page n: section/page-n.md
