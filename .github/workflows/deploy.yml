@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: '3.x'
           cache: 'pip'  # Cache pip dependencies, similar to GitLab's cache
-
+          cache-dependency-path: 'requirements.txt'
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
