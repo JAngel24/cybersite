@@ -3,7 +3,7 @@ site_url: https://jangel24.github.io/
 nav:
   - Home: index.md # A more conventional way to set your homepage
   - Blog:
-    - blog
+    - blog/index.md
 theme:
   
   name: material
