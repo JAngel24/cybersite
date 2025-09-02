@@ -1,8 +1,8 @@
 site_name: My Docs
 plugins:
   - blog:
-      blog_dir: .  
-      authors: false
+      #blog_dir: .  
+      #authors: true
   - rss:
       date_from_meta:
         as_creation: date
