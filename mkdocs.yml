@@ -1,9 +1,8 @@
 site_name: https://jangel24.github.io/cybersite/
 site_url: https://jangel24.github.io/cybersite/
 nav:
-  - Section:
-    - docs/index.md 
-    - Page 1: posts/hello.md
+  - Home: index.md # A more conventional way to set your homepage
+  - Blog: blog/
 theme:
   
   name: material
