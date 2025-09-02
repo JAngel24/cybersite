@@ -2,6 +2,7 @@ name: ci
 on:
   push:
     branches:
+      - master 
       - main
 permissions:
   contents: write
@@ -24,15 +25,5 @@ jobs:
           path: ~/.cache 
           restore-keys: |
             mkdocs-material-
-      - run: pip install -r requirements.txt 
-
-      - name: Build MkDocs Site
-        run: mkdocs build
-
-      #- run: mkdocs gh-deploy --force
-
-      - name: Deploy to GitHub Pages 🚀
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-            github_token: ${{ secrets.GITHUB_TOKEN }}
-            #publish_dir: ./ # Correct path based on mkdocs build output
+      - run: pip install mkdocs-material 
+      - run: mkdocs gh-deploy --force
