@@ -2,7 +2,7 @@ site_name: https://jangel24.github.io/cybersite/
 nav:
   - Section:
     - section/index.md 
-    - Page 1: section/page-1.md
+    - Page 1: posts/hello.md
 theme:
   site_url: https://jangel24.github.io/cybersite/
   name: material
